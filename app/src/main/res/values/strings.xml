@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Balinese Mask</string>
+    <string name="app_name_splash">Identification\nBalinese Mask</string>
+    <string name="app_name_home">Identification Balinese\nMask</string>
+    <string name="take_image">Take Image</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="guide">Guide</string>
+    <string name="about">About</string>
+    <string name="setting">Setting</string>
+    <string name="exit">Exit</string>
+    <string name="about_application">About Application</string>
+    <string name="about_application_text">The Balinese Mask Identification Application is an application that is intended to help people find out the types of Balinese masks through an image. \n\nThis application utilizes the KNN (K-Nearest Neighbor) classification algorithm to determine the type of Balinese mask according to the image obtained by the user.\n\nThis application is built on the basis of Android smart devices by utilizing the Python programming language in the classification process and also Android Kotlin on the front-end and its application</string>
+    <string name="created_by">Created by : \nNi Made Elvina Aryadhika Putri\n1808561052</string>
+    <string name="guide_application">Guide Application</string>
+    <string name="guide1">Mask detection via photo from camera:</string>
+    <string name="guidedetail1">1. Select \"Take a Picture\"\n2. Navigate the mask according to the existing guide.\n3. Press the shutter button.\n4. Wait for the process to finish.\n5. Enjoy reading the information about Balinese Mask.</string>
+    <string name="guide2">Mask detection via photo from gallery:</string>
+    <string name="guidedetail2">1. Select \"Download From Gallery\".\n2. Wait for the process to finish.\n3. Enjoy reading the information about Balinese masks.</string>
+    <string name="next">Next</string>
+    <string name="preview">preview</string>
+
+
+    <string-array name="name">
+        <item>Topeng Tua</item>
+        <item>Topeng Bujung/Demuh</item>
+        <item>Topeng Dalem</item>
+        <item>Topeng Patih</item>
+        <item>Topeng Sidakarya</item>
+        <item>Topeng Wijil</item>
+        <item>Topeng Penasar</item>
+        <item>Topeng Jero Luh</item>
+        <item>Topeng Jero Gede</item>
+        <item>Topeng Telek</item>
+        <item>Topeng Sidakarya Selem</item>
+        <item>Topeng Jauk Keras</item>
+        <item>Topeng Jauk Manis</item>
+        <item>Topeng Sita</item>
+        <item>Topeng Rama</item>
+        <item>Topeng hanuman</item>
+        <item>Topeng Rahwana</item>
+        <item>Topeng wayang wong sangut</item>
+        <item>Topeng wayang wong merdah</item>
+        <item>Topeng wayang wong tualen </item>
+        <item>Topeng wayang wong Delem</item>
+        <item>Topeng Bondres Tugek</item>
+        <item>Topeng Bondres Tua</item>
+        <item>Topeng Bondres Bongol</item>
+        <item>Topeng Bondres</item>
+        <item>Topeng Bondres</item>
+    </string-array>
+
+    <string-array name="desc">
+        <item>Topeng tua merupakan salah satu karakter terkenal di Topeng. Topeng tua biasa ada dalam tarian tunggal yang disebut Tari Topeng Tua. Karakter topeng tua mewujudkan kebijaksanaan. Usianya mengkhianati dia (dia biasanya menempatkan dirinya duduk di kursi yang dia tidak bisa berdiri dengan sangat mudah). Masalah kecil ini karena usianya dimainkan dengan ringan, hampir kekanak-kanakan. Itu diperkuat oleh senyumnya. Berkat kekuatan internal dan martabatnya, Tua Topeng menari dengan penuh semangat tetapi tidak pernah terlalu lama.</item>
+        <item>Karakter ini hanya jarang direpresentasikan dalam Topeng. Karena itu topengnya sangat sulit ditemukan, dan juga informasi tentang asal-usulnya. Dia akan memiliki berbagai nama: Demung di Singapadu, atau Buduh di bagian utara pulau itu. Dia sebenarnya adalah karakter yang sangat sulit untuk dimainkan, dia mewakili orang gila yang gila. Gerakannya yang tersentak-sentak, di luar kendali dan akhirnya sangat bebas, membutuhkan kontrol yang tinggi dari aktornya.</item>
+        <item>Karakter Topeng ini menari solo dan mewakili sebagian besar waktu Raja. Dia penting dan sebagian besar waktu adalah karakter utama. Dia bisa menjadi pahlawan, pemimpin perang. Dia bahkan bisa menjadi kekasih romantis Raja Putri atau Sita. Dia mewujudkan kecerdasan, kemuliaan dan kekuatan. Bahasa tubuhnya, ketika dia menari, sangat lambat dan penuh dengan keanggunan. Ini mengungkapkan kebaikannya, kejujurannya dan kehalusannya. Topengnya berwarna putih dengan gigi mutiara. Dia memiliki mata ketiga di tengah dahi dan itu adalah simbol kebijaksanaan dan bahwa dia adalah seorang terpelajar. Dia adalah bagian dari karakter paling canggih di Topeng.</item>
+        <item>Dia adalah karakter Topeng. Dia mewakili Perdana Menteri. Dia kadang-kadang dapat ditemukan dalam tarian tunggal yang disebut Keras Tari Topeng. Tariannya kuat; itu menunjukkan kekuatan dan ambisi karakter. Karakter Perdana Menterinya harus menasihati Raja (raja) atau Dalem, yang membuatnya menjadi karakter penting. Kadang-kadang menempatkan dia di tengah plot. Topeng Patih memiliki versi yang berbeda. Patih Keras adalah versi sombong yang ambisius dan pemarah. Di sisi lain Anda memiliki Patis Manis, lebih lembut dan bahkan romantis. Versi terakhir, Patih Lucu yaitu versi komiknya.
+</item>
+        <item>Dari Topeng Sida Karya (yang ingin menyelesaikan ritual) Pudith lahir dari legenda dinasti Gelgel. Suatu ketika seorang brahmana dari Jawa yang datang untuk menantang kerohanian Raja Gelgel, ia berpakaian seperti pengamen dan mencoba menghadiri upacara Raja. Diusir karena penampilannya, ia menyebarkan momok yang akan menghancurkan alam seluruh pulau, untuk menghukum raja karena tidak menerapkan aturan agamanya. Tidak menyadari penyebab dari permohonan itu, Raja Gelgel, pergi ke kuil Untuk menemukan beberapa jawaban. Di sana dia mendengar suara yang menyuruhnya pergi dan menemukan brahmana itu dan menganggapnya sebagai saudaranya. Setelah menemukannya, Raja menebus dirinya dengan secara resmi mengangkatnya ke status Brahmananya. Perannya mirip dengan Sida Karya Selem.
+</item>
+        <item>Wijil adalah Adik Punta. Dia memperkenalkan dirinya dengan bernyanyi, kemudian, dengan komplotannya, dia melanjutkan dalam pertandingan sparring komik. Ia sering digunakan untuk upacara keluarga.
+</item>
+        <item>Karakter Topeng Penasar Kelihan adalah seorang “pelayan-narator” yang perannya sangat penting selama keseluruhan representasi. Dia adalah adik bungsu dari Penasar Cenikan yang perannya mirip. Tugas utama mereka adalah memperkenalkan sejarah di balik lakon tersebut dan menerjemahkan bahasa Jawa Klasik ke dalam bahasa Bali populer. Namun kedua karakter ini memiliki kepribadian yang sangat berbeda satu sama lain. Penasar Cenikan adalah kotak obrolan, serius dan cerdas, berbeda dengan saudaranya Kelihan, lebih dari pelawak sombong dan bangga. Mereka berdua melayani tuan mereka yang umumnya akan menjadi salah satu protagonis atau pejabat tinggi kelas.
+</item>
+        <item>Jero Luh adalah istri raksasa Jero Gede dan selalu berdiri di sisinya setiap kali ada upacara. Karakter ini akan menjadi asal buddha dan lebih tepatnya dari legenda Cina. Lebih tua dari suaminya, dia mengeluarkan kebijaksanaan dan gravitasi dan tahu bagaimana menahan semangat suaminya dengan selalu membimbingnya di jalan yang benar.
+</item>
+        <item>Topeng Jero Gede dapat digunakan untuk berbagai acara: di Barong Landung atau saat upacara dan prosesi di desa. Dia dan istrinya Jero Luh membentuk sepasang raksasa dan karena itu digunakan sebagai boneka besar pada kesempatan itu. Sebagai topeng suci Barong, mereka disimpan di pura desa. Beberapa legenda membuat asal-usul topeng ini. Itu akan menjadi Pangeran di India, Raja di Bali atau bahkan dari setan sedarah bernama Jero gede Mecaling. Menurut legenda, yang terakhir tinggal di pulau Nusa Penida dan turun di Bali, ditemani oleh sekelompok setan untuk menyerang bagian selatan pulau. Penduduk desa yang putus asa meminta nasihat dari pendeta yang memutuskan untuk membuat Barong "besar", yang akan sekuat penjajah dan yang dapat membantu penduduk desa. Barong berhasil menakut-nakuti iblis dan memaksanya untuk kembali ke pulaunya. Sejak saat itu jero gede digunakan untuk mengusir roh jahat, penyakit, dan bala lainnya.
+</item>
+        <item>Topeng khas Bali, Telek dimainkan di Calonarang dan Barong. Ini adalah karakter yang sangat kuat dalam tradisi Bali, tetapi tidak banyak dimainkan lagi. Asal usul topeng itu kabur. Terlepas dari penampilannya yang jahat, Telek adalah penjaga kuil Dewa dan dia berdiri di samping Barong Ket untuk tarian Barong. Telek dan Jauk Keras terkait erat dalam salah satu tarian Barong. Mereka bertarung satu sama lain dan mengumumkan pertempuran besar melawan Ket Barong Ket dan Rangda. Beberapa wanita balet juga memainkan Telek. Pada masa itu topeng-topeng itu disebut: Tari Topeng Telek
+</item>
+        <item>Karakter Topeng Pajegan, sida Karya (yang dapat melanjutkan ke ritual) selem (topeng hitam) adalah versi Buddha dari Sida Karya Putih (topeng putih) Bali. Tergantung pada jenis representasi, seseorang akan memilih satu atau yang lain. Sida karya selem tampak seperti sosok kebanggaan Jero Gede, raksasa dari garis keturunan Barong. Karakter yang kuat dan ditakuti, perannya dalam tradisi hindu adalah untuk mengusir roh-roh yang lemah dan jahat. Sida Karya juga yang terakhir tampil di panggung Topeng Pajegan. Menghipnotis dan kuat, misinya adalah untuk memeriksa bahwa kejahatan memang telah diusir dan moral yang baik tidak tersentuh. Terlepas dari ketakutan di sekitar karakter penting ini, anak-anak di masyarakat selalu tidak sabar menantikan kehadirannya, karena ia juga menawarkan nasi kuning dan koin Cina untuk merayakan akhir yang bahagia dan penutupan ritual.
+</item>
+        <item>Sebuah topeng khas Bali, Jauk dimainkan di Calonarang dan Barong. Dan juga dalam tarian tunggal. Sepenuhnya bagian dari tradisi Bali, ia diwakili dalam dua cara: Jauk Keras (topeng merah) memiliki karakter yang kuat dan Jauk Manis (topeng putih), memiliki kepribadian yang jauh lebih halus dan pendiam. Jauk Keras juga merupakan tarian unik protagonis dari tari Tari yang merupakan tarian khas prajurit. Jauk Keras dan Telek terjalin erat dalam tarian pertempuran yang mengumumkan pertempuran besar antara Barong Ket dan Rangda.
+</item>
+        <item>Sebuah topeng khas Bali, Jauk dimainkan di Calonarang dan Barong. Dan juga dalam tarian tunggal. Sepenuhnya bagian dari tradisi Bali, ia diwakili dalam dua cara: Jauk Keras (topeng merah) memiliki karakter yang kuat dan Jauk Manis (topeng putih), memiliki kepribadian yang jauh lebih halus dan pendiam. Jauk adalah contoh yang baik dari penciptaan topeng untuk mewakili tipe kepribadian daripada karakter tertentu. Seperti Telek, Jauk berasal dari pertunjukan Sandaran. Lelucon lucu, dan gigi buck, menggabungkan manusia dan setan. Bulu halusnya adalah bulu monyet.
+</item>
+        <item>Tokoh sentral dari Wayang Wong, Sita adalah Rajah Janaka dari putri Kerajaan Mithila. Ia menemukan bayi yang baru lahir di alur-alur ladang yang dibajak, dalam persiapan perayaan pengorbanan yang akan datang. Tanpa anak, Raja menganggap penemuan ini sebagai hadiah dari Dewi Bumi dan merawatnya seperti miliknya sendiri. Kecantikan Sita setara dengan Lakshmi, Dewi Kecantikan, dan merupakan inkarnasi sempurna dari cinta pernikahan. Dia mengalami serangan terus-menerus dari Rahwana tetapi mendapatkan kembali keangkuhannya di sisi suaminya Rama, selanjutnya dibebaskan dari cakar setan Hanuman.
+</item>
+        <item>Rama, anak janji Rajah d’Ahyodya, adalah tokoh utama Wayang Wong. Suatu hari, Wisvamitra Yang Bijaksana, yang mengetahui asal usul Rama yang saleh, memintanya untuk membantunya melawan setan Merica dan Subahu (warga Rahwana), yang mencegah ritual pengorbanan penting untuk dilakukan dengan menodai altar. Menang, Rama bahkan berhasil memecahkan bahtera Rudra dan dengan ini memenangkan tangan Sita. Dia menargetkan plot yang dihasut oleh bungsu dari pasangan Raja, Rama kemudian akan diasingkan selama 14 tahun, bersama dengan istrinya Sita dan saudara setia Laksmana. Sementara keterampilan tempur tangkas mereka membantu mereka melawan berbagai bahaya setan yang mereka hadapi di hutan, Rama dan LANkshmana tidak akan berhasil mencegah adbuksi Sita oleh Rahwana. Sita akan dibebaskan lagi berkat orang kera, dipimpin y Hanuman, seorang pendukung Rama.
+</item>
+        <item>Tokoh utama Wayang Wong (Wong (menceritakan beberapa episode Ramayana), Hanuman adalah kera putih, putra Bayu Wakya, Dewa Angin. Ia bisa terbang dan berubah ukuran sesuai keinginannya. Pemimpin Rama yang pemberani dan cerdas ini Pasukan kera memiliki kekuatan yang luar biasa dan merupakan pembela tujuan yang adil tanpa mengharapkan imbalan. Kesetiaannya kepada Rama dan kekuatan gaibnya membuatnya menjadi karakter yang menarik dari Wayang Wong. Dia memainkan peran yang sangat penting dalam Ramayana dengan membebaskan Sita, istri rama , dari setan Rahwana.
+</item>
+        <item>Raja Alengka yang sombong, egois, tanpa hukum ada untuk kenyamanan pribadinya sendiri, dan makhluk lain hidup hanya untuk melayaninya. Matanya yang melotot menunjukkan kejahatannya, dan bibir merah darahnya tertawa terbahak-bahak, memperlihatkan gigitan yang kuat dan taring yang kejam yang siap melakukan tindakan rakus. Dia membabi buta mengikuti seleranya, yang berlebihan seperti pita lebar emas di dahinya. Fitur anehnya dibingkai oleh garis rambut yang sangat jelas di dahinya, memanjang ke daging kambing di rahang dan janggut hitam keriting memeluk mulutnya yang ganas. Di Indonesia, membandingkan seseorang dengan pengganggu najis ini dianggap sebagai penghinaan besar, dan sangat kasar.
+</item>
+        <item>Tokoh Wayang Wong yang garang, Sangut adalah adik dari Delem. Wajahnya yang muda dan ramping, sangat khas dari saudaranya, dan sudah ditandai dengan usia, dijiwai oleh mata kecil nakal, penuh keheranan, yang kontras dengan perilaku umum yang sangat penurut. Kejutan, Karakter olok-olok dengan mulut seperti kura-kura dan dua gigi taring kecilnya yang putih, ciri khasnya adalah selalu mengulangi dirinya sendiri, menambah cara konyolnya! Sangut baik hati sekalipun. Dan dia terbelah antara kesetiaan kepada kakak laki-lakinya dan pengabdian kepada tuannya yang jahat, Raja Rahwana. Dia berkontribusi pada penjelasan Delem kepada publik. Dia kadang-kadang muncul di adegan terakhir pertempuran, di sisi Raja Rahwana, jelas-jelas ditakdirkan untuk gagal. Sangut dan Delem, di sisi gelap, memiliki rekan mereka di Merdah dan Twalen.
+</item>
+        <item>Karakter Bali dari Wayang Wong, Merdah adalah anak Twalen (pelayan Rama) yang jujur dan mudah tertipu. Dia adalah sekretaris ayahnya dan pelayan Rama. Fungsinya adalah untuk melaporkan cerita kepada publik. Dia suka mengadakan percakapan dengan ayahnya dan matanya yang cerah mencerminkan keinginannya untuk mendapatkan kebijaksanaan yang sama. Tubuhnya yang ramping dan gerakannya yang gugup bertolak belakang dengan sikap apatis ayahnya. Berbagai pipa tua dan fitur-fiturnya yang menonjol mencerminkan sifatnya yang periang dan aspek kepribadiannya yang religius dan masuk akal. Tanpa ibu, Merdah menemani ayahnya dalam hidup dan nasibnya.
+</item>
+        <item>Tokoh Bali dari Wayang Wong, Twalen adalah abdi Rama dan ayah Merdah. Twalen berarti tua/kuno (mengungkapkan kebijaksanaan baik yang populer). Ia lahir berkat keilahian yang disebut Siwa dan dikirim ke Bumi dengan ciri orang yang baik dan jujur dengan nasehat yang baik. Terlepas dari asal-usulnya yang ilahi, Twalen adalah karakter yang gemuk dan canggung yang memberikan aspek lucu pada karakternya. Dibandingkan sebagai jimat keberuntungan yang juga merupakan jimat terpelajar, Twalen memang disukai penonton. Hamba Kebaikan, Twalen dan Merdah menentang Delem dan Sangut.
+</item>
+        <item>Tokoh Wayang Wong, Delem adalah seorang narator dan kakak Sangut. Itu juga pelayan Rawana. Ia memiliki reputasi memiliki temperamen buruk. Jauh lebih karismatik dibandingkan Sangut, Delem sangat lantang dengan kepercayaan diri yang tidak pantas (hanya antek). Delem memasuki adegan mengayunkan lengannya seperti kincir angin, dan Sangut dengan kikuk mencoba melakukan hal yang sama. Gerakan cepat dan eksentrik itu menambahkan aspek lucu pada dua karakter. Cara mereka menari dibandingkan dengan Penasar atau Kartala Bondres. Delem dan Sangut adalah pelayan Kejahatan dimana Twalen dan Merdah adalah pelayan Kebaikan.
+</item>
+        <item>Tokoh Topeng ini adalah bagian dari keluarga Bondres (topeng badut). Bondres Tugek adalah wanita yang sangat aktif yang dikenal cukup nakal. Dia memiliki tic: Dia menggaruk dirinya sendiri sepanjang waktu.
+</item>
+        <item>Tokoh Topeng ini adalah bagian dari keluarga Bondres (topeng badut). Bondres Tua adalah karikatur penduduk. Dia diwakili sebagian besar waktu dengan distorsi fisik. Bermata satu atau dengan bibir sumbing, gigi terdistorsi atau mata menonjol, dia juga bisa terbata-bata, pincang atau bungkuk. Seperti semua topeng Bondres, bakat pertamanya adalah membuat orang tertawa. Dia juga mencemooh kelemahannya sendiri.
+</item>
+        <item>Tokoh Topeng ini adalah bagian dari keluarga Bondres (topeng badut). Bondres Bongol tuli dan itu tidak mencegahnya untuk membiarkan dirinya berada di adegan Topeng, bernyanyi dan memuji karakter utama. Dia juga bisa mencemooh kata-kata mereka. Ia juga sering menertawakan kecacatannya sendiri.
+</item>
+        <item>Tokoh Topeng ini adalah bagian dari keluarga Bondres (topeng badut). Seperti semua topeng Bondres, bakat pertamanya adalah membuat orang tertawa. Dia juga mencemooh kelemahannya sendiri.
+</item>
+    </string-array>
+
+    <string-array name="url">
+        <item>https://www.goodnewsfromindonesia.id/uploads/images/2021/01/1712132021-Tari-Topeng-Tua.jpg,https://assets.promediateknologi.com/crop/0x0:0x0/750x500/photo/ketiknews/original/200928122934-.png,https://ceritabudi.files.wordpress.com/2013/10/topeng-tua-2-upload.jpg</item>
+        <item>https://i.ytimg.com/vi/2vpHjitVJik/maxresdefault.jpg,https://i.ytimg.com/vi/E1AT6PnaGus/maxresdefault.jpg,https://i.ytimg.com/vi/nbdBI5YKTNk/maxresdefault.jpg</item>
+        <item>https://i.pinimg.com/originals/99/0e/fc/990efc089f27f02dcfa7174930498fb7.jpg,https://docplayer.info/docs-images/111/199254765/images/31-0.jpg,http://1.bp.blogspot.com/-DNgwFAFh2Gc/VYN7FdrnxOI/AAAAAAAAAKQ/0bqT6qOX3h8/s1600/maestro-tari.jpg
+</item>
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBI6zjkRqZpDaen-yCUFRUWrYDx-DjoZIR6w&amp;usqp=CAU,https://topengbaliofficial.files.wordpress.com/2020/07/00e6373d-d90a-439e-822c-143b6a01586a.jpg?w=1024,https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a276797-703f-4bb4-afa0-785ed6dbaa5f/daai5mu-dbe07888-08ad-48f6-b845-adae81c441d0.jpg/v1/fill/w_1280,h_853,q_75,strp/topeng_keras_by_dexsurlahne_daai5mu-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODUzIiwicGF0aCI6IlwvZlwvN2EyNzY3OTctNzAzZi00YmI0LWFmYTAtNzg1ZWQ2ZGJhYTVmXC9kYWFpNW11LWRiZTA3ODg4LTA4YWQtNDhmNi1iODQ1LWFkYWU4MWM0NDFkMC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.9tNJT_YvNj7IMYMfeSgPuUKvGILIojYHgR62QqTSsdE
+</item>
+        <item>https://assets.pikiran-rakyat.com/crop/200x50:776x389/x/photo/2022/02/10/4194728539.png,https://www.komangputra.com/images/topeng-sidakarya.webp,https://www.kilasbali.com/wp-content/uploads/2018/11/20181107115146_IMG_8959-01.jpeg
+</item>
+        <item>https://topengbaliofficial.files.wordpress.com/2020/06/e7e93746-3ca8-40ba-a3f0-ca04e994bbf9.jpg?w=929
+</item>
+        <item>https://ds393qgzrxwzn.cloudfront.net/resize/m500x500/cat1/img/images/0/x0Nud2Of6z.jpg,https://topengbaliofficial.files.wordpress.com/2020/07/b1f6eb72-a78c-4897-b7f8-13b1c32c26c7.jpg?w=640,https://topengbaliofficial.files.wordpress.com/2020/06/0211d058-d523-4b07-8cb3-f2d5ef95cd60.jpg
+</item>
+        <item>https://i.ytimg.com/vi/FzCqUgsZo48/hqdefault.jpg,https://www.murnis.com/murnis_wp/wp-content/uploads/2016/11/landung.jpg,https://pdbifiles.nos.jkt-1.neo.id/files/2011/12/28/quicchote_JeroLuh.jpg
+</item>
+        <item>https://i.ytimg.com/vi/FzCqUgsZo48/hqdefault.jpg,https://www.murnis.com/murnis_wp/wp-content/uploads/2016/11/landung.jpg,https://farm4.static.flickr.com/3482/3240280195_02cdca3b31.jpg
+</item>
+        <item>https://baliexpress.jawapos.com/wp-content/uploads/2018/02/begini-kisah-di-balik-penciptaan-gerak-penuh-misteri-tari-telek_m_46162.jpeg,https://static.thehoneycombers.com/wp-content/uploads/sites/4/2018/07/9dc230-930x550.jpg,https://disbud.baliprov.go.id/wp-content/uploads/2019/07/a9f6ca0d-5c8e-4a4d-8b2f-eb421461bcac-1024x682.jpg
+</item>
+        <item>https://i.pinimg.com/originals/42/4f/c3/424fc3041f3843df60e98c08e7ce5aec.jpg,http://www.mascasia.fr/galerie/thumbs/mascasia-topeng-masque-mask-sida-karya-selem-indonesia-bali-gianyar-tb08-04-05.jpg
+</item>
+        <item>Thttps://www.nowbali.co.id/wp-content/uploads/2015/02/Topeng-0419_edit.jpg,https://i.ytimg.com/vi/4b5Fn8Xmm_U/mqdefault.jpg,http://4.bp.blogspot.com/-m7Krmu1j8yc/VY5IG4xLCII/AAAAAAAAAHc/Ja_LsTgqeq0/s1600/tari-jauk-keras.jpg
+</item>
+        <item>Thttps://id-live-01.slatic.net/p/4c1f0c0020351f06d397de0afb85f20f.jpg,https://d3kgl9duv7bxyw.cloudfront.net/wp-content/uploads/2018/02/15131341/jauk-manis-dance.jpg,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRttbYcbWK7JfctUDKwc1dh86aSgqfxcXaTCQ&amp;usqp=CAU
+</item>
+        <item>https://indonesiakaya.com/wp-content/uploads/2020/10/5__IMG_4976_Topeng_yang_digunakan_seorang_penari_menunjukkan_karakter_tokoh_yang_diperankannya_2.jpg,https://i.pinimg.com/originals/3b/05/17/3b0517d8b4c511e46261a13085f7839e.jpg
+</item>
+        <item>https://museum.isi-dps.ac.id/wp-content/uploads/2019/01/Rama-Mask.jpg
+</item>
+        <item>https://pbs.twimg.com/media/DDu5C6JUIAAZwwM.jpg,https://museum.isi-dps.ac.id/wp-content/uploads/2019/01/Anoman-Mask.jpg
+</item>
+        <item>https://pdbifiles.nos.jkt-1.neo.id/files/2011/12/28/quicchote_Indrajit.jpg,https://pdbifiles.nos.jkt-1.neo.id/files/2011/12/28/quicchote_Rahwana.jpg
+</item>
+        <item>https://museum.isi-dps.ac.id/wp-content/uploads/2019/01/sangut-mask.jpg
+</item>
+        <item>http://www.mascasia.fr/galerie/thumbs/mascasia-topeng-masque-mask-merdah-indonesia-bali-gianyar-tb12-07-05.jpg
+</item>
+        <item>http://www.mascasia.fr/galerie/thumbs/mascasia-topeng-masque-mask-tualen-indonesia-bali-gianyar-tb12-08-01.jpg
+</item>
+        <item>https://museum.isi-dps.ac.id/wp-content/uploads/2019/01/Delem-Mask.jpg</item>
+        <item>Thttps://i.ytimg.com/vi/NpTdvRJu-WI/maxresdefault.jpg
+</item>
+        <item>http://www.mascasia.fr/galerie/thumbs/mascasia-topeng-masque-mask-bondres-bongol-indonesia-bali-gianyar-tb11-06-05.jpg
+</item>
+        <item>https://balitribune.co.id/sites/default/files/styles/xtra_large/public/field/image/PAKRAMAN_MASTER%20%28FILEminimizer%29_0.JPG?itok=bSo2MxMM,https://infopublik.id/resources/album/juli-2018/20180712074701.jpg,https://www.nusabali.com/article_images/6214/terbahak-nonton-bondres-mengusir-stres-800-2016-07-17-065623_0.jpg
+</item>
+        <item>https://balitribune.co.id/sites/default/files/styles/xtra_large/public/field/image/PAKRAMAN_MASTER%20%28FILEminimizer%29_0.JPG?itok=bSo2MxMM,https://infopublik.id/resources/album/juli-2018/20180712074701.jpg,https://www.nusabali.com/article_images/6214/terbahak-nonton-bondres-mengusir-stres-800-2016-07-17-065623_0.jpg
+</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Topeng Bali</string>
+    <string name="app_name_splash">Identifikasi\nTopeng Bali</string>
+    <string name="app_name_home">Identifikasi Topeng\nBali</string>
+    <string name="take_image">Ambil Foto</string>
+    <string name="open_gallery">Buka Kamera</string>
+    <string name="guide">Panduan</string>
+    <string name="about">Tentang</string>
+    <string name="setting">Pengaturan</string>
+    <string name="exit">Keluar</string>
+    <string name="about_application" translatable="false">Tentang Aplikasi</string>
+    <string name="about_application_text" translatable="false">Aplikasi Identifikasi Topeng Bali adalah sebuah aplikasi yang ditujukan untuk membantu orang-orang mengetahui jenis topeng Bali melalui sebuah gambar. \\n\\nAplikasi ini memanfaatkan algoritma klaskfikasi KNN (K-Nearest Neighbour) untuk menentukan jenis topeng Bali sesuai gambar yang didapatkan oleh pengguna.\\n\\nApliaksi ini dibangun dalam basis perangkat pintar Android dengan memanfaatkan bahasa pemrograman Python pada proses klasifikasinya dan juga Android Kotlin pada bagian front-end dan aplikasinya</string>
+    <string name="created_by" translatable="false">Dibuat oleh : \nNi Made Elvina Aryadhika Putri\n1808561052</string>
+    <string name="guide_application" translatable="false">Panduan Aplikasi</string>
+    <string name="guide1" translatable="false">Deteksi topeng melalui foto dari kamera:</string>
+    <string name="guidedetail1" translatable="false">1. Pilih \"Ambil Gambar\".\n2. Arahkan topeng sesuai guide yang ada.\n3. Tekan tombol shutter.\n4. Tunggu proses hingga selesai.\n5. Selamat membaca informasi tentang topeng Bali.</string>
+    <string name="guidedetail2" translatable="false">1. Pilih \"Ambil Dari Gallery\".\n2. Tunggu proses hingga selesai.\n3. Selamat membaca informasi tentang topeng Bali.</string>
+    <string name="guide2" translatable="false">Deteksi topeng melalui foto dari galeri</string>
+    <string name="next">Selanjutnya</string>
+    <string name="preview">Pratinjau</string>
+</resources>
