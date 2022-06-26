@@ -36,6 +36,7 @@ import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
+//cameraX, permintaan perizinan mengakses kamera
 class CameraXActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCameraXactivityBinding
     private lateinit var cameraExecutor: ExecutorService

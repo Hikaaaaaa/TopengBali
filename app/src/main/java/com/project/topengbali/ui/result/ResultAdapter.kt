@@ -10,6 +10,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.project.topengbali.R
 import com.project.topengbali.databinding.ItemImagesBinding
 
+//adapter untuk menampilkan foto-foto dibawah detail topeng
 class ResultAdapter(private val listImage: ArrayList<String>) :
     RecyclerView.Adapter<ResultAdapter.ListViewHolder>() {
 

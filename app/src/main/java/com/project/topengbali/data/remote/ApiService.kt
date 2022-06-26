@@ -6,6 +6,7 @@ import retrofit2.http.*
 
 interface ApiService {
 
+    //method pengambilan data ke server
     @Multipart
     @POST("classification")
     fun getClassification(

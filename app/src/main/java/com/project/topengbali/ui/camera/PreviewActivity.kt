@@ -12,6 +12,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.project.topengbali.R
 import com.project.topengbali.ViewModelFactory
@@ -22,11 +23,16 @@ import com.project.topengbali.ui.result.ResultActivity.Companion.URI_IMAGE
 import com.project.topengbali.utils.reduceFileImage
 import com.project.topengbali.utils.rotateBitmap
 import com.project.topengbali.utils.uriToFile
+import id.zelory.compressor.Compressor
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody
 import java.io.File
 
+//compress image, pemanggilan prosess pengiriman image ke server
 class PreviewActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityPreviewBinding
@@ -61,27 +67,53 @@ class PreviewActivity : AppCompatActivity() {
         if (selectedImageUri != null){
             val context = this@PreviewActivity
             val image = uriToFile(selectedImageUri!!, context)
-            val reducedImage = reduceFileImage(image)
+//            val reducedImage = reduceFileImage(image)
 
-            val requestImageFile = reducedImage.asRequestBody("image/jpeg".toMediaTypeOrNull())
-            val imageMultipart: MultipartBody.Part = MultipartBody.Part.createFormData(
-                "image",
-                reducedImage.name,
-                requestImageFile
-            )
+            lifecycleScope.launch(Dispatchers.IO) {
+                /**
+                 * Enter Coroutine Scope, to compress image
+                 */
+//                val fileImage = getFile(this@PreviewActivity, selectedPhotoUri)
+                val compressedImageFile = Compressor.compress(this@PreviewActivity, image) // FIXME: 23/02/2022 Beware of using bang operator
+
+                /**
+                 * Enter Main Thread, to access view
+                 */
+                withContext(Dispatchers.Main) {
+                    updateImage(compressedImageFile)
+                }
+            }
+
+//            val requestImageFile = reducedImage.asRequestBody("image/jpeg".toMediaTypeOrNull())
+//            val imageMultipart: MultipartBody.Part = MultipartBody.Part.createFormData(
+//                "image",
+//                reducedImage.name,
+//                requestImageFile
+//            )
             viewModel.isLoading.observe(context){
                 binding.progressCircular.visibility = if (it) View.VISIBLE else View.GONE
                 binding.btnNext.isEnabled = !it
                 binding.btnClose.isEnabled = !it
             }
-            viewModel.postImage(imageMultipart, context).observe(context){
-                val nextIntent =
-                    Intent(this@PreviewActivity, ResultActivity::class.java)
-                nextIntent.putExtra(PREDICT, it)
-                nextIntent.putExtra(URI_IMAGE, selectedImageUri.toString())
-                startActivity(nextIntent)
-                finish()
-            }
+
+        }
+    }
+    private fun updateImage(fileImage: File?){
+        val context = this@PreviewActivity
+//        val requestImageFile = reducedImage.asRequestBody("image/jpeg".toMediaTypeOrNull())
+        val imageMultipart: MultipartBody.Part = MultipartBody.Part.createFormData(
+            "image",
+            fileImage?.name,
+            fileImage!!.asRequestBody("image/jpeg".toMediaTypeOrNull())
+        )
+
+        viewModel.postImage(imageMultipart, context).observe(context){
+            val nextIntent =
+                Intent(this@PreviewActivity, ResultActivity::class.java)
+            nextIntent.putExtra(PREDICT, it)
+            nextIntent.putExtra(URI_IMAGE, selectedImageUri.toString())
+            startActivity(nextIntent)
+            finish()
         }
     }
 

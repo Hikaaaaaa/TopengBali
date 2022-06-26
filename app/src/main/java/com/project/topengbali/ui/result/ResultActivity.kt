@@ -11,6 +11,7 @@ import com.project.topengbali.ViewModelFactory
 import com.project.topengbali.data.response.Topeng
 import com.project.topengbali.databinding.ActivityResultBinding
 
+//menampilkan hasil dari response dari api. logic ke xml
 class ResultActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityResultBinding
@@ -31,8 +32,6 @@ class ResultActivity : AppCompatActivity() {
         selectedImageUri = Uri.parse(uriImage)
         val context = this@ResultActivity
 
-//        predictResult.let { getDetailMask(it.toInt()) }
-//        setDropDownMenu()
 
         Glide.with(this)
             .load(Uri.parse(uriImage))
@@ -50,16 +49,6 @@ class ResultActivity : AppCompatActivity() {
             binding.rvImgMask.adapter = resultAdapter
         }
     }
-
-//    private fun getDetailMask(predict: Int) {
-//        val dataName = resources.getStringArray(R.array.name)
-//        val dataDesc = resources.getStringArray(R.array.desc)
-//        val data = Topeng(dataName[predict], dataDesc[predict])
-//        list.add(data)
-//
-//        binding.tvMaskTitle.text = this.list[0].name
-//        binding.tvMaskDesc.text = this.list[0].desc
-//    }
 
     companion object {
         const val URI_IMAGE = "image_result"

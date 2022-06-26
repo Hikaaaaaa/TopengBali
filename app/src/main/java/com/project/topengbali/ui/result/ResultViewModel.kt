@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 import com.project.topengbali.R
 import com.project.topengbali.data.response.Topeng
 
+//control penampilan data di detail tampilan topeng
 class ResultViewModel : ViewModel() {
 
     fun getDetail(predict: Int, context: Context): LiveData<Topeng> {
@@ -16,7 +17,7 @@ class ResultViewModel : ViewModel() {
         val dataUrl = context.resources.getStringArray(R.array.url)[predict]
         val listUrl = dataUrl.split(",")
         val data = Topeng(dataName[predict], dataDesc[predict], listUrl as ArrayList<String>)
-        list.value = data
+        list.postValue(data)
         return list
     }
 }

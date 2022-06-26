@@ -45,12 +45,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //beralih ke halaman kamera
     private fun startCamera() {
         val intent = Intent(this, CameraXActivity::class.java)
         startActivity(intent)
 //        launcherIntentCameraX.launch(intent)
     }
 
+    //membuka galeri
     private fun startGallery() {
         val intent = Intent()
         intent.action = Intent.ACTION_GET_CONTENT
@@ -59,19 +61,23 @@ class MainActivity : AppCompatActivity() {
         launcherIntentGallery.launch(chooser)
     }
 
+    //membuka halaman panduan
     private fun startGuide() {
         startActivity(Intent(this@MainActivity, GuideActivity::class.java))
     }
 
+    //membuka halaman tentang
     private fun startAbout() {
         startActivity(Intent(this@MainActivity, AboutActivity::class.java))
     }
 
+    //membuka halaman bahasa
     private fun startSetting() {
         val mIntent = Intent(Settings.ACTION_LOCALE_SETTINGS)
         startActivity(mIntent)
     }
 
+    //mengambil hasil gambar dari galeri
     private val launcherIntentGallery = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->

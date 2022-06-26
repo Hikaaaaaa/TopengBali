@@ -12,6 +12,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+//untuk mengatur pengiriman data dan menerima response dari server
 class CameraViewModel: ViewModel() {
 
     private val _isLoading = MutableLiveData<Boolean>()
